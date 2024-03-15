@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#FFA500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/par"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Par"
+                android:layout_marginRight="5dp"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/Impar"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Impar"
+                android:layout_marginLeft="5dp"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:onClick="onButtonClick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/botao0"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:onClick="onButtonClick"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/botao1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:onClick="onButtonClick"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/botao2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:onClick="onButtonClick"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/botao3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:onClick="onButtonClick"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/botao4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:onClick="onButtonClick"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/botao5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:onClick="onButtonClick"
+                android:background="#6200EE"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/resultTextView"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textColor="#6200EE"
+                android:background="#FF8C00"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:padding="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
